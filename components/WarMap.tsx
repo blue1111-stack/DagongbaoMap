@@ -20,7 +20,7 @@ const WarMap: React.FC = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center transition-transform duration-1000"
         style={{ 
-          backgroundImage: 'url("/china_map.jpg.jpg")',
+          backgroundImage: 'url("https://github.com/blue1111-stack/DagongbaoMap/blob/bf9cfa739f024af8afa16e22eaf96bc8b0a29632/china_map.jpg.jpg")',
           filter: 'sepia(0.6) contrast(1.1) brightness(0.9)'
         }}
       />
