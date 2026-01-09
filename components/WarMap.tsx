@@ -3,6 +3,7 @@ import React, { useState, useMemo } from 'react';
 import { LOCATIONS } from '../constants';
 import { LocationData } from '../types';
 import TelegramModal from './TelegramModal';
+import chinaMap from "../china_map.jpg";
 
 const WarMap: React.FC = () => {
   const [selectedLocation, setSelectedLocation] = useState<LocationData | null>(null);
@@ -20,7 +21,7 @@ const WarMap: React.FC = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center transition-transform duration-1000"
         style={{ 
-          backgroundImage: 'url("china_map.jpg")',
+          backgroundImage: `url(${chinaMap})`,
           filter: 'sepia(0.6) contrast(1.1) brightness(0.9)'
         }}
       />
